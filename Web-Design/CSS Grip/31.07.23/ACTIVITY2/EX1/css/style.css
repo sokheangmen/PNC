@@ -1,0 +1,22 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+.container {
+    display: grid;
+ /* code here */
+    grid-template-columns: repeat(2,1fr);
+    gap:0 10px;
+    
+}
+
+.item {
+    padding: 30px;
+    background: #2727d6;
+    color: #fff;
+    font-size: 30px;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+}

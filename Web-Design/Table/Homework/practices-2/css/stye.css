@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+body{
+    padding: 60px;
+    background-color:rgb(56, 10, 67);
+}
+form{
+    background-color: #f6dffd;
+    width: 35%;
+    height: 50%;
+    margin: auto;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    border-radius: 5px;
+}
+h2{
+    text-align: center;
+    color: rgb(130, 102, 232);
+}
+.user-name,
+.password-input{
+    display: flex;
+    gap: 50px;
+}
+[type=text],
+[type=email],
+[type=password],
+[type=date]{
+    height: 30px;
+    width: 123%;
+}
+[type=email],
+[type=date]{
+    width: 100%;
+}
+.gendar{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    gap: 5px;
+}
+#card{
+    background-color: rgb(233, 182, 238);
+}
+.subject{
+    display: flex;
+    gap: 9px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.choose{
+    margin-bottom: 10px;
+    border: 1px solid black;
+    padding: 8px;
+}
+select{
+    height: 30px;
+    width: 100%;
+    
+}
+button{
+    background-color: rgb(154, 65, 238);
+    width: 100%;
+    height: 30px;
+    border: 1px solid rgb(187, 28, 211);
+    border-radius: 30px;
+    margin-top: 10px;
+    color: white;
+}
+

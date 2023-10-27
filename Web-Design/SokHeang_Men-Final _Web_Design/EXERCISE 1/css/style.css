@@ -1,0 +1,61 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+/* TODO  */
+body{
+    display: grid;
+    text-align: center;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-areas:
+    'navbar header header header'
+    'navbar grid-container grid-container grid-container'
+    'navbar grid-container grid-container grid-container'
+    'navbar footer footer footer';
+}
+nav{
+    background-color: #86a3c3;
+    grid-area: navbar;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+header{
+    background-color:#d8e0bb;
+    grid-area: header;
+}
+.grid-container{
+    background-color: #6b3074;
+    grid-area: grid-container;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 10px 10px;
+    
+    
+}
+.card1,
+.card2,
+.card3,
+.card4,
+.card5,
+.card6,
+.card7,
+.card8,
+.card9{
+    background-color: #4624eb;
+    padding: 30px;
+    margin: 10px;
+    color: white;
+}
+footer{
+    background-color: #b6cec7;
+    grid-area: footer;
+    
+}
+header,
+footer{
+    padding: 30px;
+}
+

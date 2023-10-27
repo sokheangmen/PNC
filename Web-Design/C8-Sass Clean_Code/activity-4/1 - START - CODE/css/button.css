@@ -1,0 +1,32 @@
+.btn, .btn-login, .btn-reload, .btn-reset, .btn-submit {
+  color: white;
+  padding: 10px;
+  margin: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.btn-submit {
+  background: teal;
+}
+
+.btn-reset {
+  background: orange;
+}
+
+.btn-reload {
+  background: purple;
+}
+
+.btn-login {
+  background: darkblue;
+}
+
+.danger {
+  color: red;
+  font-size: 25px;
+  font-weight: bold;
+  border: 1px solid blue;
+  background-color: green;
+}/*# sourceMappingURL=button.css.map */

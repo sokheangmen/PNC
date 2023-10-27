@@ -1,0 +1,64 @@
+header {
+    padding: 10px;
+    background-color: bisque;
+    /* to do */
+    /* 
+    display flex
+    direction ?
+    justify-content ?
+    align-items ? 
+    */
+}
+
+#principal_title {
+    /* to do */
+}
+
+nav {
+    /* to do */
+}
+
+section {
+    /* display flex */
+}
+
+article {
+    border: 1px black solid;
+    margin: 5px 10px 5px 0px;
+    padding: 5px;
+
+    /* to do */
+    /* text justify */
+
+    /* to do */
+    /* 
+    display flex
+    flex-direction ?
+    align-items ?
+    **/
+
+}
+
+aside {
+    background-color: salmon;
+    padding: 5px;
+}
+
+footer {
+    background-color: aquamarine;
+
+    /* to do */
+    /* 
+    display flex
+    justify-content ?
+    */
+}
+
+#social_media {
+    /* to do */
+    /* 
+    display flex
+    direction ?
+    justify-content ?
+    */
+}

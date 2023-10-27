@@ -1,0 +1,30 @@
+body{
+    background: gray;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+div{
+    
+    border-top: 5px solid orange;
+    margin-top: 10px;
+    padding: 10px;
+    background: white;
+    color: teal;
+ 
+    font-size: large;
+}
+h1{
+    color:teal;
+    font-weight: 300;
+}
+strong{
+    color: green;
+}
+p{
+    color: black;
+}
+u{
+    color: orange;
+}
+
+

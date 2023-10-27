@@ -1,0 +1,14 @@
+body{
+    background: gray;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+div{
+    Border: 1px solid white;
+    margin-top: 10px; padding: 10px;
+    color: white; font-size: large;
+}
+P{
+    color: orange;
+}

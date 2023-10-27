@@ -1,0 +1,50 @@
+*{
+    font-family: sans-serif;
+    text-decoration: none;
+    list-style-type: none;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    border:none;
+}
+.container {  
+    display: flex;
+    margin: auto;
+    gap: 10px;
+    flex-wrap: wrap;
+    margin: 30px;
+}
+.card {
+    background-color: blue;
+    width: 23%;
+    padding: 10px;
+    height: 100px;
+}
+/* destop */
+@media (min-width: 1024px) and (max-width:1920px){
+    body {
+        background:white;
+    }
+}
+/* Tablat */
+@media (min-width: 768px) and (max-width:1023px){
+    body {
+        background:rgb(253, 212, 212);
+    }
+    .card {
+        width: 40%;
+    }
+}
+/* Phone */
+@media (min-width: 320px) and (max-width:767px){
+    body {
+        background:rgb(246, 158, 158);
+    }
+    .card {
+        width: 60%;
+    }
+}
+
+
+
+

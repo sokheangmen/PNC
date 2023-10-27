@@ -1,0 +1,7 @@
+def reverseString(str):
+    theRevers=""
+    for i in range(len(str)):
+        theRevers+=str[i]
+    return theRevers
+str=["hello"]
+print(reverseString(str))

@@ -1,0 +1,8 @@
+def containUpperCase(word):
+    result="INVALID"
+    for i in range(len(word)):
+        if word[i]==word[i].upper():
+            result="VALID"
+    return result
+word=input()
+print(containUpperCase(word))

@@ -1,0 +1,11 @@
+def numberOfA(numbers):
+    count=0
+    for i in range(len(numbers)):
+        if numbers[i]=="A" or numbers=="a":
+            count+=1
+    return count
+numbers=("Him","Mengheange")
+print(numberOfA(numbers))
+
+
+
